@@ -45,8 +45,6 @@ SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 -- -----------------------------------------------------
 -- Data for table `admin`
 -- -----------------------------------------------------
-START TRANSACTION;
-USE `real_state`;
 INSERT INTO `admin` (`id`, `username`, `pass`, `active`) VALUES (DEFAULT, 'admin', 'admin', 1);
 
 COMMIT;
@@ -59,13 +57,5 @@ CREATE TABLE IF NOT EXISTS `ci_sessions` (
         `ip_address` varchar(45) NOT NULL,
         `timestamp` int(10) unsigned DEFAULT 0 NOT NULL,
         `data` blob NOT NULL,
-        KEY `ci_sessions_timestamp` (`timestamp`)
-);
-
-CREATE TABLE IF NOT EXISTS `ci_sessions` (
-        `id` varchar(128) NOT NULL,
-        `ip_address` varchar(45) NOT NULL,
-        `timestamp` int(10) unsigned DEFAULT 0 NOT NULL,
-        `data` blob NULL,
         KEY `ci_sessions_timestamp` (`timestamp`)
 );

@@ -70,7 +70,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | The $query_builder variables lets you determine whether or not to load
 | the query builder class.
 */
-$active_group = 'default';
+$active_group = 'homolog';
 $query_builder = TRUE;
 
 $db['default'] = array(
@@ -100,9 +100,9 @@ $db['default'] = array(
 $db['homolog'] = array(
 	'dsn'		=> '',
 	'hostname' => 'localhost',
-	'username' => 'admin_root',
+	'username' => 'admin_vivapt',
 	'password' => 'rootsumo123@',
-	'database' => 'admin_real_state',
+	'database' => 'admin_vivapt',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,

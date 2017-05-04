@@ -4,58 +4,58 @@ $(document).ready(function($) {
 
 //  Contact Form with validation
 
-    $("#form-contact-submit").bind("click", function(event){
-        $("#form-contact").validate({
-            submitHandler: function() {
-                $.post("assets/php/contact.php", $("#form-contact").serialize(),  function(response) {
-                    $('#form-status').html(response);
-                    $('#form-contact-submit').attr('disabled','true');
-                });
-                return false;
-            }
-        });
-    });
+//     $("#form-contact-submit").bind("click", function(event){
+//         $("#form-contact").validate({
+//             submitHandler: function() {
+//                 $.post("assets/php/contact.php", $("#form-contact").serialize(),  function(response) {
+//                     $('#form-status').html(response);
+//                     $('#form-contact-submit').attr('disabled','true');
+//                 });
+//                 return false;
+//             }
+//         });
+//     });
 
-    $("#form-slider-submit").bind("click", function(event){
-        $("#form-slider").validate({
-            rules: {
-                phone: {
-                    required: true,
-                    number: true
-                }
-            },
-            submitHandler: function() {
-                $.post("assets/php/subscribe.php", $("#form-slider").serialize(),  function(response) {
-                    $('#form-slider-status').html(response);
-                    $('#form-slider-submit').addClass('disable-submit-button');
-                });
-                return false;
-            }
-        });
-    });
+//     $("#form-slider-submit").bind("click", function(event){
+//         $("#form-slider").validate({
+//             rules: {
+//                 phone: {
+//                     required: true,
+//                     number: true
+//                 }
+//             },
+//             submitHandler: function() {
+//                 $.post("assets/php/subscribe.php", $("#form-slider").serialize(),  function(response) {
+//                     $('#form-slider-status').html(response);
+//                     $('#form-slider-submit').addClass('disable-submit-button');
+//                 });
+//                 return false;
+//             }
+//         });
+//     });
 
-    $("#form-one-field-submit").bind("click", function(event){
-        $("#form-one-field").validate({
-            submitHandler: function() {
-                $.post("assets/php/subscribe.php", $("#form-one-field").serialize(),  function(response) {
-                    $('#form-one-field-status').html(response);
-                    $('#form-one-field .input-group').addClass('hide');
-                });
-                return false;
-            }
-        });
-    });
-
-
+//     $("#form-one-field-submit").bind("click", function(event){
+//         $("#form-one-field").validate({
+//             submitHandler: function() {
+//                 $.post("assets/php/subscribe.php", $("#form-one-field").serialize(),  function(response) {
+//                     $('#form-one-field-status').html(response);
+//                     $('#form-one-field .input-group').addClass('hide');
+//                 });
+//                 return false;
+//             }
+//         });
+//     });
 
 
 
-//  Resposive Video Scaling
 
-    $(".video").fitVids();
-    $('.video').css('visibility', 'visible');
 
-//  Slider (Flex Slider)
+// //  Resposive Video Scaling
+
+//     $(".video").fitVids();
+//     $('.video').css('visibility', 'visible');
+
+// //  Slider (Flex Slider)
 
 
 
