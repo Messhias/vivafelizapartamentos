@@ -14,12 +14,13 @@
                 <div class="row">
                     <div class="col-md-8 col-sm-8">
                         <div class="title">
-                            <h2 style="color: #fff;">2 e 3 dormitórios <span style="font-weight: lighter;">na Riviera</span></h2>
-                            <figure class="subtitle" style="color: #fff;">Sua casa de campo da praia</figure>
+                            <h2 style="color: #fff;">1, 2 e 3 dormitórios <span style="font-weight: lighter;">na Praia Grande</span></h2>
+                            <figure class="subtitle" style="color: #fff;">com 1 ou 2 vagas</figure>
                             <figure class="subtitle" style="color: #fff;"></figure>
                             <i class="fa fa-arrow-circle-o-right"></i>
                         </div><!-- /.title -->
                     </div><!-- /.col-md-8 -->
+
                     <div class="col-md-4 col-sm-4">
                         <div class="form-slider-wrapper form-has-parallax">
                             <header>

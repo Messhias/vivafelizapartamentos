@@ -1,34 +1,34 @@
- <section id="features-boxes" class="block background-color-grey-light">
+<section id="features-boxes" class="block background-color-grey-light">
         <div class="container">
-            <header><h3>Porque escolher o Atlântica?</h3></header>
+            <header><h3>Por que o Viva Feliz?</h3></header>
             <div class="row">
                 <div class="col-md-4 col-sm-4">
                     <div class="feature-box center">
                         <header>
-                            <img src="assets/img/Localização Privilegiada.png" alt="">
-                            <h4>Localização Privilegiada</h4>
+                            <img src="assets/img/Local.png" alt="">
+                            <h4>Ótima localização</h4>
                         </header>
-                        <p>No canto mais charmoso da enseada, ao lado do Jardim Virginia.
+                        <p>A 50 metros da praia e próximo a tudo (Comércio, escolas, bancos e serviços)
                         </p>
                     </div><!-- /.feature-box -->
                 </div><!-- /.col-md-4 -->
                 <div class="col-md-4 col-sm-4">
                     <div class="feature-box center">
                         <header>
-                            <img src="assets/img/Vista Panorâmica.png" alt="">
-                            <h4>Vista Panorâmica</h4>
+                            <img src="assets/img/vista.png" alt="">
+                            <h4>Vista Maravilhosa para o mar</h4>
                         </header>
-                        <p>Surpreenda-se com ao vista ao mar e sinta sua brisa em seu apartamento.
+                        <p>Sinta a brisa do mar em seu apartamento
                         </p>
                     </div><!-- /.feature-box -->
                 </div><!-- /.col-md-4 -->
                 <div class="col-md-4 col-sm-4">
                     <div class="feature-box center">
                         <header>
-                            <img src="assets/img/Varanda Gourmet.png" alt="">
-                            <h4>Varanda Gourmet</h4>
+                            <img src="assets/img/barato.png" alt="">
+                            <h4>Baixo Custo de Condomínio</h4>
                         </header>
-                        <p>Todos apartamentos com uma varanda espaçosa para seu churrasco.</p>
+                        <p>Condomínio de aproximadamente R$ 250,80 (Apto 443) - Jan a dez/2017</p>
                     </div><!-- /.feature-box -->
                 </div><!-- /.col-md-4 -->                
             </div><!-- /.row -->
@@ -37,28 +37,28 @@
                 <div class="col-md-4 col-sm-4">
                     <div class="feature-box center">
                         <header>
-                            <img src="assets/img/Condominios Club.png" alt="">
-                            <h4>Condomínios Club</h4>
+                            <img src="assets/img/Vagas.png" alt="">
+                            <h4>Vagas Demarcadas</h4>
                         </header>
-                        <p>Lazer para todas idade (quadra poliesportiva, piscina com 25m de raia, cinema, brinquedoteca e muito mais.</p>
+                        <p>Vaga para 1 ou 2 automóveis e uma coletiva para motos.</p>
                     </div><!-- /.feature-box -->
                 </div><!-- /.col-md-4 -->
                 <div class="col-md-4 col-sm-4">
                     <div class="feature-box center">
                         <header>
-                            <img src="assets/img/Family Space.png" alt="">
-                            <h4>Space Family</h4>
+                            <img src="assets/img/Segurança.png" alt="">
+                            <h4>Portaria com segurança 24hrs</h4>
                         </header>
-                        <p>Na cobertura 2 espaços com piscina e churrasqueira para o seu evento.</p>
+                        <p>Acesso independente com câmeras de vigilância</p>
                     </div><!-- /.feature-box -->
                 </div><!-- /.col-md-4 -->
                 <div class="col-md-4 col-sm-4">
                     <div class="feature-box center">
                         <header>
-                            <img src="assets/img/portaria.png" alt="">
-                            <h4>Portaria com Segurança</h4>
+                            <img src="assets/img/lazer.png" alt="">
+                            <h4>Condomínio Clube</h4>
                         </header>
-                        <p>Acesso independente com monitoramento 24hrs</p>
+                        <p>Lazer para todas as idades(quadra poliesportiva, piscina adulto e infantil, salão gourmet, brinquedoteca...</p>
                     </div><!-- /.feature-box -->
                 </div><!-- /.col-md-4 -->                
             </div><!-- /.row -->
