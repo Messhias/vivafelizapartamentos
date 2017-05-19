@@ -40,6 +40,10 @@
                         <a href="<?=site_url('');?>"><img src="<?=site_url('assets/img/logo.png');?>" alt="Viva Feliz"></a>
                     </div>
                 </div>
+                
+                <div class="pull-right box-phone">
+                    <a href="tel:(11) 2108-9998">(11) 2108-9998</a>
+                </div>
             </header><!-- /.navbar -->
         </div><!-- /.container -->
     </div><!-- /.navigation -->
