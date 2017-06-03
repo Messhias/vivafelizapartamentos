@@ -42,7 +42,7 @@ class Welcome extends CI_Controller {
         $this->email->from($this->input->post('email'));
         $this->email->to("praias@praias.com");
         $this->email->cc("enzo@praias.com");
-        $this->email->subject('Praia Atlântica - Download das plantas');
+        $this->email->subject('Viva Feliz Apartamentos - Informações');
         $this->email->message($message);
 		if($this->email->send()){
 
@@ -71,7 +71,7 @@ class Welcome extends CI_Controller {
         $this->email->to($this->input->post('email'));
         $this->email->from("praias@praias.com");
         $this->email->cc("enzo@praias.com");
-        $this->email->subject('Praia Atlântica - Download das plantas');
+        $this->email->subject('Viva Feliz Apartamentos - Download das plantas');
         $this->email->message($message);
         if($this->email->send()){
 			
@@ -96,7 +96,7 @@ class Welcome extends CI_Controller {
         $this->email->from($this->input->post('email'));
         $this->email->to("praias@praias.com");
         $this->email->cc("enzo@praias.com");
-        $this->email->subject('Praia Atlântica - Formulário de contato');
+        $this->email->subject('Viva Feliz Apartamentos - Formulário de contato');
         $this->email->message($this->input->post('contact-form-message'));
         if($this->email->send()){
 	        $this->contact_form_model->insert($insert);
